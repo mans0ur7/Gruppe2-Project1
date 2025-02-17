@@ -9,8 +9,10 @@ html{
     overflow: hidden;
     background-color: greenyellow;
     height: 60px;
-    line-height: 50px;
+    line-height: 55px;
     font-size: 20px;
+    font-family: "Arial Black";
+
 
 }
 
@@ -18,25 +20,34 @@ html{
 
     outline: 2px darkgreen;
     outline-offset: 4px;
+    text-decoration: none;
 }
 
-
-#navbar a[href="#home"]{
+#navbar a[href="#madspild_nej"]{
 
     padding-left: 25px;
     color: black;
-    text-decoration: none;
+;
+
+}
+
+#navbar a[href="#home"]{
+
+    padding-left: 650px;
+    color: black;
+
 
 }
 #navbar a[href="#contact"]{
 
     padding-left: 55px;
     color: black;
-    text-decoration: none;
+
+
 
 }#navbar a[href="#login"]{
 
     padding-left: 50px;
     color: black;
-    text-decoration: none;
+
 }
