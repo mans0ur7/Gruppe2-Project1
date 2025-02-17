@@ -1,0 +1,56 @@
+
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: palegreen;
+    height: 60px;
+    line-height: 55px;
+    font-size: 20px;
+    font-family: "Arial Black";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#navbar a{
+
+    outline: 2px darkgreen;
+    outline-offset: 4px;
+    text-decoration: none;
+}
+
+#navbar a[href="#madspild_nej"]{
+
+    padding-left: 25px;
+    color: black;
+;
+
+}
+
+#navbar a[id="home"]{
+
+    margin-left: auto;
+    padding-right: 20px;
+    color: black;
+
+
+}
+#navbar a[id="contact"] {
+    padding-right: 20px;
+    color: black;
+
+}
+
+#navbar a[id="login"]{
+
+    padding-right: 20px;
+    color: black;
+
+}

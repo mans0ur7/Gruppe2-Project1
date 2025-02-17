@@ -1,6 +1,7 @@
 
 html{
     scroll-behavior: smooth;
+    background-color: #d0f5d6;
 }
 #navbar{
 
@@ -8,18 +9,19 @@ html{
     top: 0;
     overflow: hidden;
     background-color: palegreen;
-    height: 60px;
+    height: 65px;
     line-height: 55px;
     font-size: 20px;
     font-family: "Arial Black";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
 }
 
 #navbar a{
 
-    outline: 2px darkgreen;
-    outline-offset: 4px;
     text-decoration: none;
 }
 
@@ -31,23 +33,23 @@ html{
 
 }
 
-#navbar a[href="#home"]{
+#navbar a[id="home"]{
 
-    padding-left: 650px;
+    margin-left: auto;
+    padding-right: 20px;
     color: black;
 
 
 }
-#navbar a[href="#contact"] {
-
-    padding-left: 55px;
+#navbar a[id="contact"] {
+    padding-right: 20px;
     color: black;
 
 }
 
-#navbar a[href="#login"]{
+#navbar a[id="login"]{
 
-    padding-left: 50px;
+    padding-right: 20px;
     color: black;
 
 }
@@ -56,9 +58,48 @@ html{
 
     padding-top: 10px;
     height: 350px;
-    width: 1264px;
+    width: 1247px;
     opacity: 0.75;
     transition: opacity 0.5s ease;
+
+}
+
+.overlay-text{
+
+    font-family: "Arial Black";
+    color: whitesmoke;
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+#om_os{
+
+    background-color: white;
+    max-width: 800px;
+    text-align: left;
+    padding-left: 15px;
+    outline: 2px solid #000
+}
+
+#om_os h1{
+
+    font-family: "Arial Black";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#om_os p1{
+
+
+    font-family: "Arial Black";
+    font-size: 20px;
+    word-wrap: break-word;
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
 }
 
