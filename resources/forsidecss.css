@@ -7,7 +7,7 @@ html{
     position: sticky;
     top: 0;
     overflow: hidden;
-    background-color: greenyellow;
+    background-color: palegreen;
     height: 60px;
     line-height: 55px;
     font-size: 20px;
@@ -38,16 +38,29 @@ html{
 
 
 }
-#navbar a[href="#contact"]{
+#navbar a[href="#contact"] {
 
     padding-left: 55px;
     color: black;
 
+}
 
-
-}#navbar a[href="#login"]{
+#navbar a[href="#login"]{
 
     padding-left: 50px;
     color: black;
 
 }
+
+#food_waste{
+
+    padding-top: 10px;
+    height: 350px;
+    width: 1264px;
+    opacity: 0.75;
+    transition: opacity 0.5s ease;
+
+}
+
+
+
