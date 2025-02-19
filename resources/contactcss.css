@@ -56,3 +56,25 @@ html{
     color: black;
 
 }
+.KontaktFormular{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+div {
+    white-space: normal;
+}
+
+.Række1 {
+
+}
+
+.Række2 {
+
+}
+
+.Besked{
+
+}
