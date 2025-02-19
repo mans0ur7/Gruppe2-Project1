@@ -18,13 +18,14 @@
 
     </div>
 
-    <h1>Kontakt Os</h1>
-    <p>
-        "Har du spørgsmål eller feedback? Vi vil meget gerne høre fra dig! Udfyld formularen nedenfor, og vi svarer hurtigst muligt."
-    </p>
-    <div id="KontaktFormular">
-        <h3>Kontakt Formular:</h3>
-        <div id="Række1">
+
+    <div class="KontaktFormular">
+        <h4 id="Titel">Kontakt Os</h4>
+        <h2 id="kontakt">Kontakt Formular:</h2>
+        <p>
+            "Har du spørgsmål eller feedback? Vi vil meget gerne høre fra dig! Udfyld formularen nedenfor, og vi svarer hurtigst muligt."
+        </p>
+        <div class="Række1">
             <label for="Navn">
                 <input type="text" id="Navn" placeholder="Navn">
             </label>
@@ -33,19 +34,24 @@
             </label>
         </div>
 
-        <div id="Række2">
+        <div class="Række2">
             <label for="Emne">
                 <input type="text" id="Emne" placeholder="Emne">
             </label>
             <label for="TlfNR">
-                <input type="tel" id="TlfNR" placeholder="Telefon nr">
+                <input type="tel" id="TlfNR" placeholder="Telefon nr" maxlength="8" pattern="[0-9]{8}">
             </label>
         </div>
-        <br>
-        <div id="Besked">
+
+        <div class="Besked">
             <label for="Besked">
-                <textarea name="Besked" placeholder="Besked" cols="30" rows="10"></textarea>
+                <textarea name="Besked" id="Besked" placeholder="Besked"
+                          cols="55" rows="10" maxlength="2000"></textarea>
             </label>
+        </div>
+
+        <div class="Knap">
+            <input id="Knap" type="button" value="Send" placeholder="Send">
         </div>
     </div>
 

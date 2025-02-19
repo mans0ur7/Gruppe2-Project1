@@ -56,11 +56,23 @@ html{
     color: black;
 
 }
+
 .KontaktFormular{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     gap: 10px;
+
+}
+
+#kontakt{
+    margin-bottom: -10px;
+}
+
+#Titel{
+    margin-top: 40px;
+    margin-bottom: -15px;
 }
 
 div {
@@ -68,7 +80,7 @@ div {
 }
 
 .Række1 {
-
+    margin-top: 30px;
 }
 
 .Række2 {
@@ -76,5 +88,56 @@ div {
 }
 
 .Besked{
+    font-size: 160px;
+    margin-top: 7px;
+    margin-bottom: -10px;
+}
 
+#Navn{
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#Email{
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#Emne{
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+
+#TlfNR{
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid darkgreen;
+}
+
+#Knap{
+    background-color: darkgreen;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: -30px;
 }
