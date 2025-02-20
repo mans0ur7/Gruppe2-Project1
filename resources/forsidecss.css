@@ -9,7 +9,7 @@ html{
     top: 0;
     overflow: hidden;
     background-color: palegreen;
-    height: 65px;
+    height: 60px;
     line-height: 55px;
     font-size: 20px;
     font-family: "Arial Black";
@@ -79,29 +79,60 @@ html{
 
 #om_os{
 
-    background-color: white;
-    max-width: 800px;
+    background-color: cadetblue;
+    max-width: 400px;
+    max-height: 1000px;
     text-align: left;
     padding-left: 15px;
-    outline: 2px solid #000
+
+    padding-bottom: 50px;
+
 }
 
 #om_os h1{
 
+    color: #d0f5d6;
     font-family: "Arial Black";
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #om_os p1{
 
-
+    color: #d0f5d6;
     font-family: "Arial Black";
     font-size: 20px;
     word-wrap: break-word;
     margin: 0 auto;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
 }
 
+#info1{
+
+    background-color: palegreen;
+    max-width: 850px;
+    height: 398px;
+    padding: 0;
+    margin-left: 500px;
+    font-family: "Arial Black";
+    text-align: left;
+    margin-top: -418px;
+    margin-left: 450px;
+    padding-left: 15px;
+
+
+}
+#info1 p1{
+
+    font-size: 20px;
+    color: cadetblue;
+    word-wrap: break-word;
+    text-align: left;
+
+}
+#info1 h1{
+
+    color: cadetblue;
+    padding-left: 10px;
+
+}
 
 
