@@ -20,7 +20,115 @@
 </div>
 
 
-<p1>login</p1>
+<div id="payment">
+
+
+    <section>
+        <h1>Vælg donations beløb</h1>
+    </section>
+
+
+    <input type="radio" id="option1" name="payment" class="radio" ></input>
+    <label for="option1" class="option">50kr</label>
+
+    <input type="radio" id="option2" name="payment" class="radio" ></input>
+    <label for="option1" class="option">100kr</label>
+
+    <input type="radio" id="option3" name="payment" class="radio" ></input>
+    <label for="option1" class="option">500kr</label>
+
+    <input type="radio" id="option4" name="payment" class="radio" ></input>
+    <label for="option1" class="option">1000kr</label>
+
+    <br>
+    <br>
+
+    <section class="amount">
+        <label for="amount">
+            <input type="text" id="amount" placeholder="Indtast egen beløb">
+        </label>
+    </section>
+
+    <br>
+
+    <section class="paymentMethod">
+
+        <input type="radio" id="mobilepay" name="mobilepay" class="radio">
+        <label for="mobilepay" class="option"></label>
+        <img src="mblpaytrans.webp" id="mobilepay_pic" class="image" alt="image">
+
+
+        <br>
+
+        <input type="radio" id="card" name="card" class="radio">
+        <label for="card" class="option"></label>
+        <img src="dankort.png" id="dankort" class="image" alt="image">
+        <img src="visa.png" id="visa" class="image" alt="image">
+        <img src="mastercard.png" id="mastercard" class="image" alt="image">
+
+
+
+    </section>
+
+    <br>
+    <br>
+
+    <section class="personInfo">
+
+        <section class="Række1">
+            <label for="Navn">
+                <input type="text" id="Navn" placeholder="Navn">
+            </label>
+            <label for="efternavn">
+                <input type="Email" id="efternavn" placeholder="Efternavn">
+            </label>
+        </section>
+
+        <section class="Række2">
+            <label for="email">
+                <input type="text" id="email" placeholder="Email">
+            </label>
+            <label for="TlfNR">
+                <input type="tel" id="TlfNR" placeholder="Telefon nr" maxlength="8" pattern="[0-9]{8}">
+            </label>
+        </section>
+
+        <section class="række3">
+            <label for="adresse">
+                <input type="text" id="adresse" placeholder="Adresse">
+            </label>
+        </section>
+
+        <section class="Række4">
+            <label for="postnummer">
+                <input type="text" id="postnummer" placeholder="Postnummer">
+            </label>
+            <label for="by">
+                <input type="tel" id="by" placeholder="By">
+            </label>
+        </section>
+
+        <br>
+        <br>
+
+        <section class="politik">
+            <label for="politik">
+                <input type="checkbox" id="politik">
+                Jeg har læst og forstået
+                DANMARK-MOD-MADSPILDs privatpolitik
+            </label>
+        </section>
+
+        <section class="acceptbutton">
+            <label for="accept">
+                <input type="button" id="accept" value="STØT" placeholder="STØT">
+            </label>
+        </section>
+
+</section>
+
+
+
 
 
 </body>

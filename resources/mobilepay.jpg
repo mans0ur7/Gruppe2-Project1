@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt Os</title>
+    <link rel="stylesheet" href="contactcss.css">
+</head>
+
+<body>
+
+
+    <div id="navbar">
+
+        <a href="#madspild_nej"> DANMARK-MOD-MADSPIL.DK</a>
+        <a href="forside.html" id="home"> Home</a>
+        <a href="login.html" id="login">Støt os</a>
+        <a href=#contact.html" id="contact">Kontakt os</a>
+
+    </div>
+
+
+    <div class="KontaktFormular">
+        <h4 id="Titel">Kontakt Os</h4>
+        <h2 id="kontakt">Kontakt Formular:</h2>
+        <p>
+            "Har du spørgsmål eller feedback? Vi vil meget gerne høre fra dig! Udfyld formularen nedenfor, og vi svarer hurtigst muligt."
+        </p>
+        <div class="Række1">
+            <label for="Navn">
+                <input type="text" id="Navn" placeholder="Navn">
+            </label>
+            <label for="Email">
+                <input type="Email" id="Email" placeholder="Email">
+            </label>
+        </div>
+
+        <div class="Række2">
+            <label for="Emne">
+                <input type="text" id="Emne" placeholder="Emne">
+            </label>
+            <label for="TlfNR">
+                <input type="tel" id="TlfNR" placeholder="Telefon nr" maxlength="8" pattern="[0-9]{8}">
+            </label>
+        </div>
+
+        <div class="Besked">
+            <label for="Besked">
+                <textarea name="Besked" id="Besked" placeholder="Besked"
+                          cols="55" rows="10" maxlength="2000"></textarea>
+            </label>
+        </div>
+
+        <div class="Knap">
+            <input id="Knap" type="button" value="Send" placeholder="Send">
+        </div>
+    </div>
+
+</body>
+
+
+</html>

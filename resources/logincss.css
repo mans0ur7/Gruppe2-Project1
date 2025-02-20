@@ -54,3 +54,82 @@ html{
     color: black;
 
 }
+
+.option {
+
+    height: 10px;
+    width: 20px;
+}
+
+#mobilepay_pic{
+
+    height: 30px;
+    width: 60px;
+}
+
+#dankort{
+
+    height: 15px;
+    width: 30px;
+
+}
+
+#visa{
+
+    height: 15px;
+    width: 35px;
+}
+
+#mastercard{
+
+    height: 15px;
+    width: 30px;
+}
+
+#adresse{
+
+    height: 35px;
+    width: 336px;
+    border-radius: 5px;
+}
+#amount{
+
+    height: 35px;
+    width: 336px;
+    border-radius: 5px;
+}
+
+#Navn{
+    height: 35px;
+    border-radius: 5px;
+}
+#efternavn{
+    height: 35px;
+    border-radius: 5px;
+}
+#email{
+    height: 35px;
+    border-radius: 5px;
+}
+#TlfNR{
+    height: 35px;
+    border-radius: 5px;
+}
+#postnummer{
+    height: 35px;
+    border-radius: 5px;
+}
+#by{
+    height: 35px;
+    border-radius: 5px;
+}
+#accept{
+
+    width: 200px;
+    height: 40px;
+
+}
+
+#accept{
+    background-color: palegreen;
+}
