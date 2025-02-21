@@ -90,7 +90,7 @@ html{
 #adresse{
 
     height: 35px;
-    width: 336px;
+    width: 346px;
     border-radius: 5px;
 }
 #amount{
@@ -103,6 +103,8 @@ html{
 #Navn{
     height: 35px;
     border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 #efternavn{
     height: 35px;
@@ -111,6 +113,8 @@ html{
 #email{
     height: 35px;
     border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 #TlfNR{
     height: 35px;
@@ -119,10 +123,16 @@ html{
 #postnummer{
     height: 35px;
     border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 #by{
     height: 35px;
     border-radius: 5px;
+}
+
+#politik{
+    margin-bottom: 10px;
 }
 #accept{
 
