@@ -65,6 +65,7 @@ html{
 
     height: 30px;
     width: 60px;
+    margin-bottom: -5px;
 }
 
 #dankort{
@@ -133,3 +134,5 @@ html{
 #accept{
     background-color: palegreen;
 }
+
+
