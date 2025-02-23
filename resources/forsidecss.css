@@ -54,7 +54,7 @@ html{
 }
 
 .font_forside{
-    font-family: "Arial Black";
+    font-family: "Arial Black", serif;
 }
 
 #food_waste{
@@ -70,7 +70,6 @@ html{
 }
 
 .overlay-text{
-
     color: whitesmoke;
     font-size: 50px;
     position: absolute;
@@ -79,6 +78,7 @@ html{
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-top: -80px;
+    text-align: center;
 }
 
 
