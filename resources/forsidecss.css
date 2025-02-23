@@ -24,14 +24,6 @@ html{
     text-decoration: none;
 }
 
-#navbar a[href="#madspild_nej"]{
-
-    padding-left: 25px;
-    color: black;
-;
-
-}
-
 #navbar a[id="home"]{
 
     margin-left: auto;
@@ -48,9 +40,15 @@ html{
 
 #navbar a[id="login"]{
 
-    padding-right: 20px;
+    padding-right: 25px;
     color: black;
 
+}
+
+#navbar a[id="logo-knap"]{
+
+    color: black;
+    padding-left: 25px;
 }
 
 .font_forside{
@@ -59,7 +57,7 @@ html{
 
 #food_waste{
 
-    padding-top: 10px;
+    padding-top: 20px;
     height: 350px;
     width: 1247px;
     opacity: 0.75;

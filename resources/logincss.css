@@ -26,11 +26,10 @@ html{
     text-decoration: none;
 }
 
-#navbar a[href="#madspild_nej"]{
+#navbar a[id="logo-knap"]{
 
     padding-left: 25px;
     color: black;
-;
 
 }
 
