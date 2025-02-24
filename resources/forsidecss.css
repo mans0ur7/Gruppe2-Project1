@@ -75,7 +75,7 @@ html{
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-top: -80px;
+    margin-top: -10px;
     text-align: center;
 }
 
@@ -87,7 +87,7 @@ html{
     max-height: 1000px;
     text-align: left;
     padding-left: 15px;
-    margin-left: 45px;
+    margin-left: 0px;
     padding-bottom: 50px;
 
 }
